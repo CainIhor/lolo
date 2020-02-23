@@ -654,7 +654,7 @@ Roboto Black 900
     .main-wrap h2{  
     text-align: center;
     line-height: 2;
-    font-size: 32px;
+    font-size: 22px;
     font-family: "Roboto";
     font-weight: 800;   
     color: #383334; 
@@ -686,5 +686,6 @@ Roboto Black 900
     }
     .list-wrap{
         flex-direction: row;
+        width: 340PX;
     }
 }
