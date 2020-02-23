@@ -581,3 +581,26 @@ Roboto Black 900
         left: 40%;
     }
 }
+@media (max-width: 340px){
+    .container{
+        max-width: 340px;
+    }
+    .page-header{
+        width: 340px;
+    }
+    .main-menu{
+        width: 340px;
+    }
+    .header-contenet{
+        width: 340px;
+    }
+    .footer-content{
+        width: 340px;
+    }
+    .main-wrap{
+        width: 340px;
+    }
+    .main-logo{
+        width: 340PX;
+    }
+}
