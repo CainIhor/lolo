@@ -593,6 +593,9 @@ Roboto Black 900
     }
 }
 @media (max-width: 340px){
+    .page-header{
+        background-position: left;
+    }
     .container{
         max-width: 340px;
     }
@@ -600,18 +603,80 @@ Roboto Black 900
         width: 340px;
     }
     .main-menu{
+        margin-left: 0; 
+        width: 340px;
+    }
+    .main-menu li p{
+        width: 140px;
+    }
+    .mikocin{
+        height: 264px;
+        width: 334px;
+        margin-bottom: 100px;
+        margin-left: 0;
+    }
+    .header-contenet-list{
+        margin-bottom: 50px;   
+        margin-left: 0;
+        width: 340px;
+        background-position: bottom 110px left 30px;
+    }
+    .header-contenet-list li:nth-child(3) p:nth-child(1){
+    top: -25px;
+    }
+.header-contenet-list li:nth-child(4) p:nth-child(1){
+    top: -45px; 
+    }
+    .header-contenet-list li{
         width: 340px;
     }
     .header-contenet{
+        flex-direction: column;
         width: 340px;
+    }
+    .main-content-list{
+        flex-direction: column;
+    }
+    .input-content-list{
+        margin-left: 0; 
+    }
+    .main-logo{
+        width: 340px;
+        margin-right: 50px;
+    }
+    .main-wrap{
+        display: block;
+        width: 340px;
+        margin-left: 0;
+    }
+    .main-wrap h2{  
+    text-align: center;
+    line-height: 2;
+    font-size: 32px;
+    font-family: "Roboto";
+    font-weight: 800;   
+    color: #383334; 
+        }
+.main-wrap span {
+    font-size: 18px;
+    color: #2b2828;
+    }
+    .main-wrap h2{
+        margin-left: 0;
+    }
+    .main-wrap LI{
+        margin-left: 0;
+        margin-bottom: 30px;
     }
     .footer-content{
         width: 340px;
+        margin-left: 0;
     }
-    .main-wrap{
-        width: 340px;
+    .footer-content p{
+        padding: 20px 30px;
     }
-    .main-logo{
-        width: 340PX;
+    .footer-content img{
+        top: -30px;
+        left: 40%;
     }
 }
