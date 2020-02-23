@@ -8,7 +8,7 @@ body{
     margin: 0;
     padding: 0;
     width: 100%;
-    overflow-x: hidden;
+    
 }
 /*
 Roboto Thin 100
@@ -414,11 +414,6 @@ Roboto Black 900
     display: flex;
     justify-content: center;    
 }
-.main-wrap{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
 .main-wrap h2{  
     text-align: center;
     line-height: 2;
@@ -491,13 +486,13 @@ Roboto Black 900
     font-weight: 400;
 }
 .footer-content{
-    display: flex;
-    justify-content: center;
     position: relative;
-    margin-top: 75px;   
+    margin-top: 75px;  
+    width: 1260px;
 }
 .footer-content img{
     position: absolute;
+    left: 50%;
 }
 .footer-content p{
     border: 2px solid #f4d3bb;
@@ -512,8 +507,11 @@ Roboto Black 900
     color: #000;
 }
 @media (max-width: 1280px){
+    .container{
+        max-width: 1280px;
+    }
     .header-contenet-list{
-    background-position: bottom 145px left 30px;
+    background-position: bottom 199px left 30px;
     }
     .input-content-list{
         background-position: top 10px left ;
@@ -529,7 +527,6 @@ Roboto Black 900
     .main-menu{
         width: 500px;
         flex-direction: column;
-        margin-left: 160px;
     }
     .main-menu li p{
         width: 140px;
