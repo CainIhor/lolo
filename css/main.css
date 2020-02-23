@@ -619,7 +619,8 @@ Roboto Black 900
         margin-bottom: 50px;   
         margin-left: 0;
         width: 340px;
-        background-position: bottom 110px left 30px;
+        background-position: bottom 110px left -10px ;
+        padding-inline-start: 0;
     }
     .header-contenet-list li:nth-child(3) p:nth-child(1){
     top: -25px;
@@ -636,6 +637,7 @@ Roboto Black 900
     }
     .main-content-list{
         flex-direction: column;
+        padding-inline-start: 0;
     }
     .input-content-list{
         margin-left: 0; 
@@ -677,6 +679,12 @@ Roboto Black 900
     }
     .footer-content img{
         top: -30px;
-        left: 40%;
+        left: 30%;
+    }
+    .list-wrap p{
+        font-size: 18px;
+    }
+    .list-wrap{
+        flex-direction: row;
     }
 }
