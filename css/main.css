@@ -526,7 +526,7 @@ Roboto Black 900
         width: 700px;
     }
     .main-menu{
-        margin-left: 180px; 
+        margin-left: 250px; 
         width: 500px;
         flex-direction: column;
     }
@@ -544,6 +544,12 @@ Roboto Black 900
         width: 400px;
         background-position: bottom 40px left 30px;
     }
+    .header-contenet-list li:nth-child(3) p:nth-child(1){
+    top: 25px;
+}
+.header-contenet-list li:nth-child(4) p:nth-child(1){
+    top: 25px; 
+}
     .header-contenet-list li{
         width: 400px;
     }
@@ -563,15 +569,20 @@ Roboto Black 900
         margin-right: 50px;
     }
     .main-wrap{
+        display: block;
         width: 600px;
-        margin-left: 150px;
+        margin-left: 50px;
+    }
+    .main-wrap h2{
+        margin-left: 0;
     }
     .main-wrap LI{
-        
+        margin-left: 150px;
         margin-bottom: 30px;
     }
     .footer-content{
         width: 600px;
+        margin-left: 90px;
     }
     .footer-content p{
         padding: 20px 30px;
