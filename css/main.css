@@ -422,7 +422,7 @@ Roboto Black 900
     justify-content: center;
     flex-wrap: wrap;
 }
-.main-wrap h2{
+.main-wrap h2{  
     text-align: center;
     line-height: 2;
     font-size: 48px;
@@ -513,6 +513,14 @@ Roboto Black 900
 .footer-content span{
     font-weight: 800;
     color: #000;
+}
+@media (max-width: 1280px){
+    .header-contenet-list{
+    background-position: bottom 145px left 30px;
+    }
+    .input-content-list{
+        background-position: top 10px left ;
+    }
 }
 @media (max-width: 900px){
     .container{
