@@ -7,6 +7,8 @@ html{
 body{
     margin: 0;
     padding: 0;
+    width: 100%;
+    overflow-x: hidden;
 }
 /*
 Roboto Thin 100
@@ -137,12 +139,7 @@ Roboto Black 900
 }
 
 .container{
-    max-width: 1400px;
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 1400px;
 }
 .page-header{
     height: 834px;
@@ -522,29 +519,59 @@ Roboto Black 900
         background-position: top 10px left ;
     }
 }
-@media (max-width: 900px){
+@media (max-width: 800px){
     .container{
-        max-width: 900px;
+        max-width: 700px;
+    }
+    .page-header{
+        width: 700px;
     }
     .main-menu{
-        width: 300px;
-        margin-inline-start: 550px;
+        width: 500px;
+        flex-direction: column;
+        margin-left: 160px;
     }
     .main-menu li p{
         width: 140px;
     }
     .mikocin{
-        margin-top: 60px;
-        margin-left: 200px;
+        margin-top: 150px;
         margin-bottom: 100px;
+        margin-left: -40px;
     }
     .header-contenet-list{
         margin-bottom: 50px;   
+        margin-left: 110px;
+        width: 400px;
+    }
+    .header-contenet-list li{
+        width: 400px;
     }
     .header-contenet{
         flex-direction: column;
+        width: 600px;
+    }
+    .header-contenet-list{
+        background-position: bottom 40px left 30px;
     }
     .main-content-list{
         flex-direction: column;
+    }
+    .input-content-list{
+        margin-left: 150px; 
+    }
+    .main-logo{
+        width: 700px;
+        margin-top: 1400px;
+        margin-right: 50px;
+    }
+    .main-wrap{
+        width: 600px;
+    }
+    .footer-content{
+        width: 600px;
+    }
+    .footer-content p{
+        padding: 20px 30px;
     }
 }
