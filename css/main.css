@@ -507,9 +507,16 @@ Roboto Black 900
     font-weight: 800;
     color: #000;
 }
+@media (max-width: 1600px){
+    .header-contenet-list li:nth-child(4) p:nth-child(1){
+    top: -15px; 
+    }
+}
+    
 @media (max-width: 1280px){
     .container{
         max-width: 1280px;
+        
     }
     .header-contenet-list{
     background-position: bottom 199px left 30px;
@@ -688,4 +695,14 @@ Roboto Black 900
         flex-direction: row;
         width: 340PX;
     }
+    .mikocin p:nth-child(1){
+    top: -16px;
+    right: 100px;
+    background-color: #ff6b00;
+}
+    .mikocin p:nth-child(2){
+    top: 60px;
+    right: 0;
+    background-color: #a8ca3f;
+}
 }
